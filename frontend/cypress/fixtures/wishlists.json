@@ -1,0 +1,92 @@
+
+[{
+    "id": "424242",
+    "name": "Test Student",
+    "wishlist": [
+      {
+        "areas": ["Web Development"],
+        "attachments": [],
+        "background": "Parents are increasingly involved in their children's learning journeys, but current edtech platforms often lack transparent progress reports or actionable feedback. BrightBloom wants to close this gap with a parent-focused insight dashboard.",
+        "capacity": 2,
+        "category": "Web Development",
+        "clients": ["68097b049caa0cce193734d9"],
+        "color": "#0e5c84",
+        "course": "68096d809e1986a0437adc6b",
+        "date_created": "2025-04-24",
+        "date_modified": "2025-04-24",
+        "embedded_background": [
+          -0.011293183080852032,
+          -0.01314600370824337
+        ],
+        "groups": [
+          "68097ac1b19b3262e2a0139e",
+          "68097ac5b19b3262e2a013a3"
+        ],
+        "id": "680981ba9caa0cce193734db",
+        "is_allocated": true,
+        "name": "BrightBloom Parent Insight Dashboard",
+        "outcomes": "An interactive dashboard with live data fetching, customizable views per student, and downloadable PDF reports — tailored for parent usability and integrated with BrightBloom’s learning system.",
+        "proj_no": 2,
+        "req_skills": "JavaScript/TypeScript\n\nData visualization tools (Chart.js, D3, or Recharts)\n\nBackend experience with Node.js or Firebase\n\nUX/UI design basics",
+        "responses": [],
+        "scope": "This project involves designing and developing a web-based dashboard where parents can log in to view metrics like weekly learning time, topic mastery, quiz performance, and emotional engagement (measured via in-app sentiment analysis). The challenge is turning raw student data into intuitive, meaningful visualizations.",
+        "status": "available",
+        "subcourse": "68097aabb19b3262e2a01389",
+        "terms": [1]
+      },
+      {
+        "areas": ["AI", "Web Development", "Mobile Development"],
+        "attachments": [],
+        "background": "Navigating urban roads can be difficult due to dynamic hazards like accidents, blocked lanes, or available parking being hard to find in real-time. Traditional map systems do not offer up-to-date information beyond traffic congestion. With increasing vehicle automation and dashcam usage, there's an opportunity to enhance real-time road awareness using AI.",
+        "capacity": 3,
+        "category": "AI",
+        "clients": ["680980cdcbf686305930ad94"],
+        "color": "#9913b8",
+        "course": "68096d809e1986a0437adc6b",
+        "date_created": "2025-04-24",
+        "date_modified": "2025-04-24",
+        "embedded_background": [
+          0.07057922333478928
+        ],
+        "groups": ["68097ab5b19b3262e2a01392"],
+        "id": "68098359474776cb88a817b0",
+        "is_allocated": true,
+        "name": "SmartScan Road Insights",
+        "outcomes": "A functional prototype mobile or web application that can process video data in real-time, detect key road events, and notify users in a shared network. Bonus points for integration with Google Maps or Waze APIs.",
+        "proj_no": 4,
+        "req_skills": "Python or JavaScript\n\nMachine learning (YOLOv8 or similar for object detection)\n\nOpenCV and computer vision basics\n\nFlutter or React for front-end\n\nFirebase or similar for backend/cloud services",
+        "responses": [],
+        "scope": "This project aims to develop a mobile or web-based system that leverages AI to process rear-facing camera footage and identify relevant road events such as accidents, open parking spaces, or debris. The app will capture footage from a user’s phone camera, process it in real-time (or near-real-time), and share the insights with other users for enhanced awareness and safer driving.",
+        "status": "available",
+        "subcourse": "68097aabb19b3262e2a01389",
+        "terms": [2, 3]
+      },
+      {
+        "areas": ["Mobile Development", "Web Development"],
+        "attachments": [],
+        "background": "Universities often lack a centralized digital space where students can easily connect, share resources, find study groups, post events, and collaborate outside the classroom.",
+        "capacity": 3,
+        "category": "Web Development",
+        "clients": ["68098237a7ee7d353764f453"],
+        "color": "#c37ea7",
+        "course": "68096d809e1986a0437adc6b",
+        "date_created": "2025-04-24",
+        "date_modified": "2025-04-24",
+        "embedded_background": [
+        ],
+        "groups": [],
+        "id": "6809848ca7ee7d353764f457",
+        "is_allocated": false,
+        "name": "CampusConnect – Student Community Web Portal",
+        "outcomes": "A functional, mobile-friendly community platform tailored for student life, with a clean UI and a working backend for real-time communication and content management.",
+        "proj_no": 10,
+        "req_skills": "HTML/CSS/JavaScript\nReact or Vue.js\nNode.js + Express or Django\nMongoDB or PostgreSQL\nBasic user authentication & session management\n",
+        "responses": [],
+        "scope": "Develop a web portal for students at a university/college to interact, share notes, post questions, and form groups. Think of it as a mini social platform with educational tools.\n\nCore features:\n\nUser profiles and authentication\nForum-like post feed (questions, resources, events)\nMessaging and group chats\nStudy group creation & calendar integration\nAdmin panel for moderation\nBonus ideas: gamify with points, badges, or rep scores.",
+        "status": "available",
+        "subcourse": "68097aabb19b3262e2a01389",
+        "terms": [1, 3, 2]
+      }
+    ]
+  }]
+  

@@ -1,0 +1,31 @@
+{
+  "staff": {
+    "id": 999,
+    "firstName": "test123",
+    "lastName": "testing",
+    "zid": "z1234567",
+    "email": "z1234567@ad.unsw.edu.au",
+    "role": "staff"
+  },
+  "student": {
+    "id": 424242,
+    "firstName": "test123",
+    "lastName": "testing",
+    "zid": "z7654321",
+    "email": "z7654321@ad.unsw.edu.au",
+    "role": "student"
+  },
+  "client": {
+    "id": 314159,
+    "firstName": "test123",
+    "lastName": "testing",
+    "email": "h@gmail.com",
+    "phone": "0100000000",
+    "companyName": "TestCompany123",
+    "companyABN": "11111111111",
+    "industry": "Software Engineering",
+    "contactHours": "9:00AM-5:00PM",
+    "role": "client"
+  }
+}
+  

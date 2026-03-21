@@ -1,0 +1,263 @@
+{
+    "BABS3121T1": {
+      "id": "BABS3121T1",
+      "name": "Biology of the Mind Term 1",
+      "code": "BABS3121",
+      "owner": "999",
+      "year": 2025,
+      "term": 1,
+      "is_archived": false,
+      "parent_course": "BABS3121",
+      "students": ["424242"],
+      "staff": ["999"],
+      "groups": ["H12A-DRAGONFRUIT"],
+      "projects": ["project6"],
+      "clients": [],
+      "channels": ["channel_003"],
+      "client_questionnaire": [
+        {
+          "id": "id_16",
+          "input_type": "text",
+          "label": "Project Name",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_17",
+          "input_type": "checkbox",
+          "label": "Offering Terms",
+          "value": null,
+          "options": ["1", "2", "3"]
+        },
+        {
+          "id": "id_18",
+          "input_type": "textarea",
+          "label": "Background",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_19",
+          "input_type": "textarea",
+          "label": "Project Description",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_20",
+          "input_type": "textarea",
+          "label": "Required Skills",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_21",
+          "input_type": "textarea",
+          "label": "Outcome",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_22",
+          "input_type": "number",
+          "label": "Number of Groups",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_23",
+          "input_type": "select",
+          "label": "Category",
+          "value": null,
+          "options": ["AI", "Web Development", "Mobile Development", "Data Science", "Cyber Security"]
+        },
+        {
+          "id": "id_24",
+          "input_type": "dropdown",
+          "label": "Product Areas",
+          "value": null,
+          "options": ["AI", "Web Development", "Mobile Development", "Data Science", "Cyber Security"]
+        }
+      ],
+      "project_preference_form": [
+        {
+          "id": "id_25",
+          "input_type": "select",
+          "label": "What is the first topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_26",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_27",
+          "input_type": "select",
+          "label": "What is the second topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_28",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_29",
+          "input_type": "select",
+          "label": "What is the third topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_30",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        }
+      ],
+      "is_published": true,
+      "description": "Welcome to the Biology of the Mind Project Course Term 1, where theory meets practice in a hands-on exploration of real-world projects.",
+      "max_group_size": 4,
+      "preference_release": false,
+      "color": "#F5CDA7"
+    },
+    "COMP3900T1": {
+      "id": "COMP3900T1",
+      "name": "Computer Science Project Term 1",
+      "code": "COMP3900",
+      "owner": "999",
+      "year": 2025,
+      "term": 1,
+      "is_archived": false,
+      "parent_course": "COMP3900",
+      "students": ["424242"],
+      "staff": ["999"],
+      "groups": ["H12A-Apple", "H12A-BANANA"],
+      "projects": ["project6", "project10"],
+      "clients": ["314159"],
+      "channels": ["channel_001", "channel_002"],
+      "client_questionnaire": [
+        {
+          "id": "id_1",
+          "input_type": "text",
+          "label": "Project Name",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_2",
+          "input_type": "checkbox",
+          "label": "Offering Terms",
+          "value": null,
+          "options": ["1", "2", "3"]
+        },
+        {
+          "id": "id_3",
+          "input_type": "textarea",
+          "label": "Background",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_4",
+          "input_type": "textarea",
+          "label": "Project Description",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_5",
+          "input_type": "textarea",
+          "label": "Required Skills",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_6",
+          "input_type": "textarea",
+          "label": "Outcome",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_7",
+          "input_type": "number",
+          "label": "Number of Groups",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_8",
+          "input_type": "select",
+          "label": "Category",
+          "value": null,
+          "options": ["AI", "Web Development", "Mobile Development", "Data Science", "Cyber Security"]
+        },
+        {
+          "id": "id_9",
+          "input_type": "dropdown",
+          "label": "Product Areas",
+          "value": null,
+          "options": ["AI", "Web Development", "Mobile Development", "Data Science", "Cyber Security"]
+        }
+      ],
+      "project_preference_form": [
+        {
+          "id": "id_10",
+          "input_type": "select",
+          "label": "What is the first topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_11",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_12",
+          "input_type": "select",
+          "label": "What is the second topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_13",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_14",
+          "input_type": "select",
+          "label": "What is the third topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_15",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        }
+      ],
+      "is_published": true,
+      "description": "Welcome to the Information Technology/Computer Science Project Course Term 1, where theory meets practice in a hands-on exploration of real-world projects.",
+      "max_group_size": 5,
+      "preference_release": true,
+      "color": "#A8D5BA"
+    }
+    
+}

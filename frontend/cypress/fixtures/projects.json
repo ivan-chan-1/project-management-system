@@ -1,0 +1,71 @@
+{
+  
+    "project6": {
+      "id": "project6",
+      "name": "AI-Powered Web Threat Detection System",
+      "proj_no": 6,
+      "clients": [314159],  
+      "groups": [],          
+      "status": "available",
+      "capacity": 3,
+      "terms": [1],  
+      "category": "Artificial Intelligence",
+      "areas": ["Cyber Security", "Machine Learning"],
+      "background": "In an era where cyber threats are increasingly sophisticated, organizations need advanced tools to protect their online assets. This project leverages artificial intelligence to detect and mitigate web-based threats in real-time.",
+      "scope": "Develop a system that uses AI to monitor web traffic, detect anomalies, and flag potential threats. The system should include a dashboard for visualizing threat data and alerting administrators.",
+      "req_skills": "Python, TensorFlow, Web Security, Data Analysis, JavaScript",
+      "outcomes": "A fully functional AI-driven threat detection system with a user-friendly dashboard, capable of identifying at least 90% of simulated threats in testing.",
+      "date_created": "2025-04-20T10:00:00Z",
+      "date_modified": "2025-04-24T15:30:00Z",
+      "attachments": ["threat_detection_proposal.pdf", "mockup_dashboard.png"],
+      "is_allocated": false,
+      "responses": [
+        {
+          "question": "What is the primary goal of this project?",
+          "answer": "To enhance web security by using AI to detect and mitigate threats in real-time."
+        },
+        {
+          "question": "What is the expected timeline for development?",
+          "answer": "The project is expected to be completed within 12 weeks, with milestones for data collection, model training, and dashboard development."
+        }
+      ],
+      "course": "COMP3900",
+      "subcourse": "COMP3900T1",
+      "embedded_background": null,
+      "color": "#4A90E2" 
+    },
+    "project10": {
+      "id": "project10",
+      "name": "CampusConnect - Student Community Web Portal",
+      "proj_no": 10,
+      "clients": [314159],  
+      "groups": [],           
+      "status": "available",
+      "capacity": 4,
+      "terms": [2],  
+      "category": "Web Development",
+      "areas": ["Community Platforms", "User Experience"],
+      "background": "University students often struggle to find a centralized platform for collaboration, resource sharing, and community engagement. CampusConnect aims to bridge this gap by providing a web portal tailored to student needs.",
+      "scope": "Design and implement a web portal where students can create profiles, join interest-based groups, share resources, and communicate securely. The platform should include user authentication, group management, and a resource-sharing feature.",
+      "req_skills": "React, Node.js, MongoDB, UI/UX Design, JavaScript",
+      "outcomes": "A fully operational web portal with user authentication, group functionality, and resource-sharing capabilities, supporting at least 500 concurrent users.",
+      "date_created": "2025-04-15T09:00:00Z",
+      "date_modified": "2025-04-20T14:20:00Z",
+      "attachments": ["campus_connect_design.pdf", "wireframe_homepage.jpg"],
+      "is_allocated": false,
+      "responses": [
+        {
+          "question": "What is the primary goal of this project?",
+          "answer": "To create a centralized platform for students to connect, collaborate, and share resources securely."
+        },
+        {
+          "question": "How will user privacy be ensured?",
+          "answer": "The platform will implement secure user authentication, data encryption, and role-based access control to protect user data."
+        }
+      ],
+      "course": "COMP3900",
+      "subcourse": "COMP3900T1",
+      "embedded_background": null,
+      "color": "#FF6F61" 
+    }
+  }

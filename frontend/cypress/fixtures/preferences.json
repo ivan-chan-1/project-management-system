@@ -1,0 +1,35 @@
+[
+    {
+      "notes": "i love this project because it combines my passion for education with technology. I believe that by creating a platform that provides parents with insights into their children's learning, we can foster a more supportive and engaged learning environment. I'm excited to work on this project and contribute to its success.",
+      "project": {
+        "areas": ["Web Development"],
+        "attachments": [],
+        "background": "Parents are increasingly involved in their children's learning journeys, but current edtech platforms often lack transparent progress reports or actionable feedback. BrightBloom wants to close this gap with a parent-focused insight dashboard.",
+        "capacity": 2,
+        "category": "Web Development",
+        "clients": ["68097b049caa0cce193734d9"],
+        "color": "#0e5c84",
+        "course": "68096d809e1986a0437adc6b",
+        "date_created": "2025-04-24",
+        "date_modified": "2025-04-24",
+        "embedded_background": [
+        ],
+        "groups": [
+          "68097ac1b19b3262e2a0139e",
+          "68097ac5b19b3262e2a013a3"
+        ],
+        "id": "680981ba9caa0cce193734db",
+        "is_allocated": true,
+        "name": "BrightBloom Parent Insight Dashboard",
+        "outcomes": "An interactive dashboard with live data fetching, customizable views per student, and downloadable PDF reports — tailored for parent usability and integrated with BrightBloom’s learning system.",
+        "proj_no": 2,
+        "req_skills": "JavaScript/TypeScript\n\nData visualization tools (Chart.js, D3, or Recharts)\n\nBackend experience with Node.js or Firebase\n\nUX/UI design basics",
+        "responses": [],
+        "scope": "This project involves designing and developing a web-based dashboard where parents can log in to view metrics like weekly learning time, topic mastery, quiz performance, and emotional engagement (measured via in-app sentiment analysis). The challenge is turning raw student data into intuitive, meaningful visualizations.",
+        "status": "available",
+        "subcourse": "68097aabb19b3262e2a01389",
+        "terms": [1]
+      },
+      "rank": 1
+    }
+  ]

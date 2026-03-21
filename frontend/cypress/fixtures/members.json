@@ -1,0 +1,28 @@
+[
+    {
+        "id": "member1",
+        "name": "John Doe",
+        "role": "student",
+        "tutorials": "W10A",
+        "email": "john@example.com",
+        "group": null
+    },
+    {
+        "id": "student2",
+        "name": "Jane Doe",
+        "role": "student",
+        "tutorials": "W12B",
+        "email": "john@example.com",
+        "group": null
+    },
+    {
+        "id": "member2",
+        "name": "Jane Smith",
+        "role": "staff",
+        "tutorials": [
+            "H12A"
+        ],
+        "email": "jane@example.com",
+        "group": null
+    }
+]

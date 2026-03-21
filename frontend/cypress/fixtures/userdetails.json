@@ -1,0 +1,59 @@
+{
+  "staff": {
+    "id": "999",
+    "name": "Test Staff",
+    "zid": "z1234567",
+    "email": "z1234567@ad.unsw.edu.au",
+    "password": "securePassword123",
+    "role": "course admin",
+    "classes": [],
+    "reset_pin": null,
+    "links": []
+  },
+  "student": {
+    "id": "424242",
+    "name": "Test Student",
+    "zid": "z7654321",
+    "email": "z7654321@ad.unsw.edu.au",
+    "password": "securePassword123",
+    "year": 2,
+    "role": "student",
+    "subcourses": [
+      {
+        "subcourse": "68097aabb19b3262e2a01389",
+        "tutorial": "H12A",
+        "group": "68097aacb19b3262e2a0138b",
+        "draft_alloc": null,
+        "wishlist": [
+          "680981ba9caa0cce193734db",
+          "68098359474776cb88a817b0",
+          "6809848ca7ee7d353764f457"
+        ],
+        "preferences": []
+      }
+    ],
+    "experiences": [],
+    "reset_pin": null
+  },
+  "client": {
+    "id": "314159",
+    "name": "Test Client",
+    "email": "h@gmail.com",
+    "password": "securePassword123",
+    "role": "client",
+    "phone": "0100000000",
+    "is_verified": true,
+    "company_name": "TestCompany123",
+    "company_brief": "A software engineering firm specializing in educational platforms.",
+    "company_address": "123 Technology Dr, Sydney NSW",
+    "company_industry": "Software Engineering",
+    "company_abn": "11111111111",
+    "contact_hours": "9:00AM-5:00PM",
+    "projects": [],
+    "courses": ["BABS3121"],
+    "wishlist": [],
+    "preferences": [],
+    "reset_pin": null
+  }
+}
+  

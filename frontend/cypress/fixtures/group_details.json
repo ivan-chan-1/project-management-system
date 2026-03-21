@@ -1,0 +1,197 @@
+[
+    {
+        "id": "68097aacb19b3262e2a0138b",
+        "name": "H12A-APPLE",
+        "members": [
+            {
+                "id": "32321",
+                "name": "Test Student",
+                "zid": "z7654321",
+                "email": "z7654321@ad.unsw.edu.au",
+                "password": "securePassword123",
+                "year": 2,
+                "role": "student",
+                "subcourses": [
+                    {
+                        "subcourse": "68097aabb19b3262e2a01389",
+                        "tutorial": "H12A",
+                        "group": "68097aacb19b3262e2a0138b",
+                        "draft_alloc": null,
+                        "wishlist": [
+                            "680981ba9caa0cce193734db",
+                            "68098359474776cb88a817b0",
+                            "6809848ca7ee7d353764f457"
+                        ],
+                        "preferences": []
+                    }
+                ],
+                "experiences": [],
+                "reset_pin": null
+            },
+            {
+                "id": "432321",
+                "name": "Test Student 2",
+                "zid": "z8654321",
+                "email": "z8654321@ad.unsw.edu.au",
+                "password": "securePassword123",
+                "year": 2,
+                "role": "student",
+                "subcourses": [
+                    {
+                        "subcourse": "68097aabb19b3262e2a01389",
+                        "tutorial": "H12A",
+                        "group": "68097aacb19b3262e2a0138b",
+                        "draft_alloc": null,
+                        "wishlist": [
+                            "680981ba9caa0cce193734db",
+                            "68098359474776cb88a817b0",
+                            "6809848ca7ee7d353764f457"
+                        ],
+                        "preferences": []
+                    }
+                ],
+                "experiences": [],
+                "reset_pin": null
+            }
+        ],
+        "tutorial": "H12A",
+        "bio": "We are very passionate group",
+        "goal": "Aiming for HD",
+        "project": "68098359474776cb88a817b0",
+        "draft_alloc": null,
+        "proj_preferences": [
+            {
+                "project": "680981ba9caa0cce193734db",
+                "notes": "Our group is passionate about leveraging AI to solve real-world problems, especially in transportation. SmartScan Road Insights excites us because it has the potential to enhance road safety and efficiency using intelligent scanning systems, an area we’re eager to explore.sdfsdfsf",
+                "rank": 1
+            },
+            {
+                "project": "6809848ca7ee7d353764f457",
+                "notes": "Building communities through technology is something we’re passionate about. CampusConnect offers an opportunity to create a platform that fosters studensdfsdfasdfdasafasdfasdfat engagement and collaboration, which we find incredibly rewarding.",
+                "rank": 2
+            },
+            {
+                "project": "680981569caa0cce193734da",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 3
+            },
+            {
+                "project": "68098425474776cb88a817b3",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 4
+            },
+            {
+                "project": "680983b8474776cb88a817b2",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 5
+            },
+            {
+                "project": "680986dba7ee7d353764f458",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 6
+            },
+            {
+                "project": "68098359474776cb88a817b0",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 7
+            }
+        ],
+        "topic_preferences": [
+            "Web Development",
+            "sfjsfdakl",
+            "Web Application",
+            "sdfklsdf",
+            "VR/AR",
+            "fsldfaf"
+        ],
+        "is_draft": false,
+        "links": [],
+        "responses": [],
+        "lead": "68097aacb19b3262e2a0138a"
+    },
+    {
+        "id": "68097aacb19b3262e2a0138b",
+        "name": "H12A-BANANA",
+        "members": [
+            {
+                "id": "32321",
+                "name": "Test Student 3",
+                "zid": "z7654321",
+                "email": "z7654321@ad.unsw.edu.au",
+                "password": "securePassword123",
+                "year": 2,
+                "role": "student",
+                "subcourses": [
+                    {
+                        "subcourse": "68097aabb19b3262e2a01389",
+                        "tutorial": "H12A",
+                        "group": "68097aacb19b3262e2a0138b",
+                        "draft_alloc": null,
+                        "wishlist": [
+                            "680981ba9caa0cce193734db",
+                            "68098359474776cb88a817b0",
+                            "6809848ca7ee7d353764f457"
+                        ],
+                        "preferences": []
+                    }
+                ],
+                "experiences": [],
+                "reset_pin": null
+            }
+        ],
+        "tutorial": "H12A",
+        "bio": "We are very passionate group",
+        "goal": "Aiming for HD",
+        "project": "68098359474776cb88a817b0",
+        "draft_alloc": null,
+        "proj_preferences": [
+            {
+                "project": "680981ba9caa0cce193734db",
+                "notes": "Our group is passionate about leveraging AI to solve real-world problems, especially in transportation. SmartScan Road Insights excites us because it has the potential to enhance road safety and efficiency using intelligent scanning systems, an area we’re eager to explore.sdfsdfsf",
+                "rank": 1
+            },
+            {
+                "project": "6809848ca7ee7d353764f457",
+                "notes": "Building communities through technology is something we’re passionate about. CampusConnect offers an opportunity to create a platform that fosters studensdfsdfasdfdasafasdfasdfat engagement and collaboration, which we find incredibly rewarding.",
+                "rank": 2
+            },
+            {
+                "project": "680981569caa0cce193734da",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 3
+            },
+            {
+                "project": "68098425474776cb88a817b3",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 4
+            },
+            {
+                "project": "680983b8474776cb88a817b2",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 5
+            },
+            {
+                "project": "680986dba7ee7d353764f458",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 6
+            },
+            {
+                "project": "68098359474776cb88a817b0",
+                "notes": "z3928471@ad.unsw.edu.au \nOur group is passionate about using AI to address real-world challenges, particularly in transportation. SmartScan Road Insights excites us because it offers the chance to improve road safety and efficiency through intelligent scanning systems. We’re eager to create a solution that can reduce accidents and optimize traffic flow, making a tangible impact on communities.\n",
+                "rank": 7
+            }
+        ],
+        "topic_preferences": [
+            "Web Development",
+            "sfjsfdakl",
+            "Web Application",
+            "sdfklsdf",
+            "VR/AR",
+            "fsldfaf"
+        ],
+        "is_draft": false,
+        "links": [],
+        "responses": [],
+        "lead": "68097aacb19b3262e2a0138a"
+    }
+]

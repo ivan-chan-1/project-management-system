@@ -1,0 +1,187 @@
+{
+    "id": "68096d809e1986a0437adc6b",
+    "name": "Computer Science Project",
+    "code": "COMP3900",
+    "description": "Welcome to the Information Technology/Computer Science Project Course, where theory meets practice in a hands-on exploration of real-world projects. This course is designed to elevate your programming skills by immersing you in the intricacies of coding, debugging, and optimizing software solutions. As you apply your theoretical knowledge of information technology/computer science concepts, algorithms, and data structures, you will actively bridge the gap between theoretical understanding and practical implementation. This course places a strong emphasis on teamwork and effective collaboration. You will navigate the challenges of group projects, learning to work seamlessly with peers, share responsibilities, and communicate ideas effectively. Beyond coding and collaboration, the course offers a comprehensive exploration of project management skills. From planning and scheduling to task prioritization, you will gain insights into the entire project lifecycle, experiencing firsthand the evolution of a concept into a completed solution. Furthermore, you will learn the art of crafting clear and concise project reports, and the skills to deliver impactful presentations.",
+    "owner": "68096bfa9e1986a0437adc6a",
+    "terms": [
+        1,
+        2,
+        3
+    ],
+    "term_dates": {
+        "1": "01-02-2025 to 01-05-2025",
+        "2": "01-06-2025 to 01-08-2025",
+        "3": "01-09-2025 to 01-12-2026"
+    },
+    "clients": [
+        "68097b049caa0cce193734d9"
+    ],
+    "projects": [
+        "680981569caa0cce193734da",
+        "680981ba9caa0cce193734db"
+    ],
+    "def_client_questionnaire": [
+        {
+            "id": "68096b1c9e1986a0437adc5a",
+            "input_type": "text",
+            "label": "Project Name",
+            "value": null,
+            "options": []
+        },
+        {
+            "id": "68096b1c9e1986a0437adc5b",
+            "input_type": "checkbox",
+            "label": "Offering Terms",
+            "value": null,
+            "options": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "id": "68096b1c9e1986a0437adc5c",
+            "input_type": "textarea",
+            "label": "Background",
+            "value": null,
+            "options": []
+        },
+        {
+            "id": "68096b1c9e1986a0437adc5d",
+            "input_type": "textarea",
+            "label": "Project Description",
+            "value": null,
+            "options": []
+        },
+        {
+            "id": "68096b1c9e1986a0437adc5e",
+            "input_type": "textarea",
+            "label": "Required Skills",
+            "value": null,
+            "options": []
+        },
+        {
+            "id": "68096b1c9e1986a0437adc5f",
+            "input_type": "textarea",
+            "label": "Outcome",
+            "value": null,
+            "options": []
+        },
+        {
+            "id": "68096b1c9e1986a0437adc60",
+            "input_type": "number",
+            "label": "Number of Groups",
+            "value": null,
+            "options": []
+        },
+        {
+            "id": "68096b1c9e1986a0437adc61",
+            "input_type": "select",
+            "label": "Category",
+            "value": null,
+            "options": [
+                "AI",
+                "Web Development",
+                "Mobile Development",
+                "Data Science",
+                "Cyber Security"
+            ]
+        },
+        {
+            "id": "68096b1c9e1986a0437adc62",
+            "input_type": "dropdown",
+            "label": "Product Areas",
+            "value": null,
+            "options": [
+                "AI",
+                "Web Development",
+                "Mobile Development",
+                "Data Science",
+                "Cyber Security"
+            ]
+        },
+        {
+            "id": "680f49d03ff88491b855d339",
+            "input_type": "text",
+            "label": "Sample Question",
+            "value": "",
+            "options": [
+                ""
+            ]
+        }
+    ],
+    "def_project_preference_form": [
+        {
+            "id": "68096b1c9e1986a0437adc63",
+            "input_type": "select",
+            "label": "What is the first topic area you are interested in, if you don't get your project preferences?",
+            "value": null,
+            "options": [
+                "AI/ML",
+                "NLP",
+                "Web Development",
+                "Web Application",
+                "Data Science",
+                "VR/AR",
+                "Cyber Security"
+            ]
+        },
+        {
+            "id": "68096b1c9e1986a0437adc64",
+            "input_type": "text",
+            "label": "Why are you interested in this topic area?",
+            "value": null,
+            "options": []
+        },
+        {
+            "id": "68096b1c9e1986a0437adc65",
+            "input_type": "select",
+            "label": "What is the second topic area you are interested in, if you don't get your project preferences?",
+            "value": null,
+            "options": [
+                "AI/ML",
+                "NLP",
+                "Web Development",
+                "Web Application",
+                "Data Science",
+                "VR/AR",
+                "Cyber Security"
+            ]
+        },
+        {
+            "id": "68096b1c9e1986a0437adc66",
+            "input_type": "text",
+            "label": "Why are you interested in this topic area?",
+            "value": null,
+            "options": []
+        },
+        {
+            "id": "68096b1c9e1986a0437adc67",
+            "input_type": "select",
+            "label": "What is the third topic area you are interested in, if you don't get your project preferences?",
+            "value": null,
+            "options": [
+                "AI/ML",
+                "NLP",
+                "Web Development",
+                "Web Application",
+                "Data Science",
+                "VR/AR",
+                "Cyber Security"
+            ]
+        },
+        {
+            "id": "68096b1c9e1986a0437adc68",
+            "input_type": "text",
+            "label": "Why are you interested in this topic area?",
+            "value": null,
+            "options": []
+        }
+    ],
+    "color": "#4cf0b8",
+    "embedded_description": [
+        0.006963638588786125,
+        0.024874800816178322
+    ]
+}

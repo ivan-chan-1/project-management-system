@@ -1,0 +1,19 @@
+{
+    "id": "68096bfa9e1986a0437adc6a",
+    "name": "Alice Kim",
+    "zid": "z3928471",
+    "email": "z3928471@ad.unsw.edu.au",
+    "password": "$2b$10$.FWpIcXZKA6wFZoXpGDUf.9oUHfpLUzk3LnrG2fVto0iOpkWfbLSO",
+    "role": "course admin",
+    "classes": [
+        {
+            "subcourse": "fakeSubcourseId",
+            "tutorials": [
+                "H12A",
+                "W10A"
+            ]
+        }
+    ],
+    "reset_pin": null,
+    "links": []
+}

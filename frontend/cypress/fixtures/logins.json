@@ -1,0 +1,18 @@
+{
+    "student": {
+      "access_token": "student-token-abc123",
+      "id": 424242,
+      "email": "z7654321@ad.unsw.edu.au"
+    },
+    "staff": {
+      "access_token": "staff-token-def456",
+      "id": 999,
+      "email": "z1234567@ad.unsw.edu.au"
+    },
+    "client": {
+      "access_token": "client-token-ghi789",
+      "id": 314159,
+      "email": "h@gmail.com"
+    }
+  }
+  

@@ -1,0 +1,190 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "mytheme";
+  default: true; /* set as default */
+  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: light; /* color of browser-provided UI */
+
+  /* Colors based on the provided palette */
+  --color-base-100: #FFFFFF; /* Light background */
+  --color-base-200: #D5EEFF; /* Lighter blue */
+  --color-base-300: #D2D2D2; /* Gray background */
+  --color-base-content: #000000; /* Gray text */
+  --color-primary: #1794FA; /* Primary blue */
+  --color-primary-content: #FFFFFF; /* White text on primary color */
+  --color-secondary: #D2D2D2; /* Secondary color (light gray) */
+  --color-secondary-content: #676767; /* Gray text for secondary */
+  --color-accent: #F52F98; /* Accent color (same as primary blue) */
+  --color-accent-content: #FFF0F6; /* White text on accent */
+  --color-neutral: #676767; /* Neutral gray */
+  --color-neutral-content: #FFFFFF; /* White text on neutral */
+  --color-info: #1794FA; /* Info blue */
+  --color-info-content: #FFFFFF; /* White text on info */
+  --color-success: #28a745; /* Success green */
+  --color-success-content: #FFFFFF; /* White text on success */
+  --color-warning: #f39c12; /* Warning yellow */
+  --color-warning-content: #FFFFFF; /* White text on warning */
+  --color-error: #e74c3c; /* Error red */
+  --color-error-content: #FFFFFF; /* White text on error */
+
+  /* border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  /* base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* border size */
+  --border: 1px;
+
+  /* effects */
+  --depth: 1;
+  --noise: 0;
+}
+
+[data-theme="mytheme"] {
+  button.circle {
+    padding: 0px;
+    border-radius: 50%;
+  }
+
+  button {
+    border-radius: 8px;
+    font-size: 12px;
+    /* padding: 12px 20px; */
+  }
+
+  .drk-btn.thin {
+    padding: 6px 20px;
+  }
+  
+  .drk-btn {
+    background-color: #1794FA;
+    border-color: #1794FA;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 12px 20px;
+  }
+
+  .red-btn {
+    background-color: #ec1212;
+    border-color: #ec1212;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 12px 20px;
+  }
+
+  .red-btn-hover:hover {
+    background-color: #ffe2e2;
+    border-color: #ffe2e2;
+    color: #ec1212;
+    font-weight: bold;
+    padding: 12px 20px;
+  }
+
+  .green-btn {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 12px 20px;
+  }
+
+  .green-btn-hover:hover {
+    background-color: #d6ffe0;
+    border-color: #d6ffe0;
+    color: #28a745;
+    font-weight: bold;
+    padding: 12px 20px;
+  }
+
+  .drk-btn-hover:hover {
+    background-color: #D5EEFF;
+    border-color: #D5EEFF;
+    color: #1794FA;
+    font-weight: bold;
+  }
+
+  .drk-btn-disabled:disabled {
+    background-color: #e5e7eb;
+    border-color: #e5e7eb;
+    color: #939599;
+    font-weight: bold;
+  }
+
+  .lt-btn {
+    background-color: #D5EEFF;
+    border-color: #D5EEFF;
+    color: #1794FA;
+    font-weight: bold;
+    padding: 12px 20px;
+  }
+
+  .lt-btn-hover:hover {
+    background-color: #1794FA;
+    border-color: #1794FA;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+
+  h1 {
+    color: #1794FA;
+    font-size: 20px;
+  }
+
+  .search-container svg {
+    margin-left: 10px;
+  }
+
+  .icon-hover:hover {
+    color: #1794FA;
+  }
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+:root:has(.modal-open, .modal[open], .modal:target, .modal-toggle:checked) {
+  --root-bg: color-mix(in srgb, var(--color-base-100), oklch(100% 0 0) 10%);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+

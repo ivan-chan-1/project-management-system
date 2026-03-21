@@ -1,0 +1,101 @@
+[{
+    "_id": {
+      "$oid": "68098359474776cb88a817b0"
+    },
+    "name": "SmartScan Road Insights",
+    "clients": [
+      {
+        "$oid": "680980cdcbf686305930ad94"
+      }
+    ],
+    "groups": [
+      {
+        "$oid": "68097aacb19b3262e2a0138b"
+      },
+      {
+        "$oid": "68097accb19b3262e2a013aa"
+      }
+    ],
+    "is_allocated": true,
+    "status": "available",
+    "capacity": 3,
+    "category": "AI",
+    "course": {
+      "$oid": "68096d809e1986a0437adc6b"
+    },
+    "terms": [
+      1,
+      2,
+      3
+    ],
+    "areas": [
+      "AI",
+      "Web Development",
+      "Mobile Development"
+    ],
+    "background": "Navigating urban roads can be difficult due to dynamic hazards like accidents, blocked lanes, or available parking being hard to find in real-time. Traditional map systems do not offer up-to-date information beyond traffic congestion. With increasing vehicle automation and dashcam usage, there's an opportunity to enhance real-time road awareness using AI.",
+    "scope": "This project aims to develop a mobile or web-based system that leverages AI to process rear-facing camera footage and identify relevant road events such as accidents, open parking spaces, or debris. The app will capture footage from a user’s phone camera, process it in real-time (or near real-time), and share the insights with other users for enhanced awareness and safer driving.\n\n",
+    "req_skills": "Python or JavaScript\n\nMachine learning (YOLOv8 or similar for object detection)\n\nOpenCV and computer vision basics\n\nFlutter or React for front-end\n\nFirebase or similar for backend/cloud services",
+    "outcomes": "A functional prototype mobile or web application that can process video data in real-time, detect key road events, and notify users in a shared network. Bonus points for integration with Google Maps or Waze APIs.\n\n",
+    "date_created": "2025-04-24",
+    "date_modified": "2025-04-24",
+    "attachments": [],
+    "responses": [],
+    "proj_no": 4,
+    "embedded_background": [
+      -0.03628791868686676
+    ],
+    "subcourse": {
+      "$oid": "68097aabb19b3262e2a01389"
+    },
+    "color": "#9913b8"
+  },
+  {
+    "_id": {
+      "$oid": "68098389474776cb88a817b1"
+    },
+    "name": "GreenTrack – Smart Plant Monitoring System",
+    "clients": [
+      {
+        "$oid": "680980cdcbf686305930ad94"
+      }
+    ],
+    "groups": [
+      {
+        "$oid": "68097ab5b19b3262e2a01392"
+      }
+    ],
+    "is_allocated": true,
+    "status": "available",
+    "capacity": 2,
+    "category": "AI",
+    "course": {
+      "$oid": "68096d809e1986a0437adc6b"
+    },
+    "terms": [
+      1,
+      3,
+      2
+    ],
+    "areas": [
+      "AI",
+      "Web Development"
+    ],
+    "background": "Urban gardening is rising in popularity, but many hobbyists struggle to keep plants healthy due to lack of real-time insights about their environment. Traditional monitoring systems are often expensive or difficult to integrate at home.\n\n",
+    "scope": "GreenTrack is an IoT-based platform that allows users to monitor plant health remotely through sensor data. It includes a mobile/web dashboard that provides real-time metrics such as soil moisture, light exposure, and temperature, with automated recommendations and alerts.\n\n",
+    "req_skills": "Arduino or Raspberry Pi basics\n\nJavaScript or Python\n\nMobile/web development (React or Flutter)\n\nREST APIs\n\nBasic data visualization",
+    "outcomes": "A smart dashboard integrated with a microcontroller and sensors, offering plant health stats and personalized care suggestions.",
+    "date_created": "2025-04-24",
+    "date_modified": "2025-04-24",
+    "attachments": [],
+    "responses": [],
+    "proj_no": 5,
+    "embedded_background": [
+      -0.010130071081221104
+    ],
+    "subcourse": {
+      "$oid": "68097aabb19b3262e2a01389"
+    },
+    "color": "#7fc6b0"
+  }
+]

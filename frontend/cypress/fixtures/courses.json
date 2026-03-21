@@ -1,0 +1,146 @@
+{
+    "BABS3121": {
+      "id": "BABS3121",
+      "name": "Biology of the Mind",
+      "code": "BABS3121",
+      "description": "A course on the biology of the mind, exploring the intersection of neuroscience and psychology.",
+      "owner": "999",
+      "terms": [1,2,3],
+      "termDates": [
+        "01-02-2025 to 01-05-2025",
+        "01-06-2025 to 01-08-2025",
+        "01-09-2025 to 01-12-2026"
+      ],
+      "clients": [],
+      "projects": ["project_003"],
+      "def_client_questionaire": [
+        {
+            "def_client_questionnaire": {
+                "id": "id_16",
+                "input_type": "text",
+                "label": "Project Name",
+                "value": null,
+                "options": []
+            }
+        },
+        {
+            "def_client_questionnaire": {
+                "id": "id_17",
+                "input_type": "checkbox",
+                "label": "Offering Terms",
+                "value": null,
+                "options": ["1", "2", "3"]
+            }
+        },
+        {
+            "def_client_questionnaire": {
+                "id": "id_18",
+                "input_type": "textarea",
+                "label": "Background",
+                "value": null,
+                "options": []
+            }
+        },
+        {
+            "def_client_questionnaire": {
+                "id": "id_19",
+                "input_type": "textarea",
+                "label": "Project Description",
+                "value": null,
+                "options": []
+            }
+        },
+        {
+            "def_client_questionnaire": {
+                "id": "id_20",
+                "input_type": "textarea",
+                "label": "Required Skills",
+                "value": null,
+                "options": []
+            }
+        },
+        {
+            "def_client_questionnaire": {
+                "id": "id_21",
+                "input_type": "textarea",
+                "label": "Outcome",
+                "value": null,
+                "options": []
+            }
+        },
+        {
+            "def_client_questionnaire": {
+                "id": "id_22",
+                "input_type": "number",
+                "label": "Number of Groups",
+                "value": null,
+                "options": []
+            }
+        },
+        {
+            "def_client_questionnaire": {
+               "id": "id_23",
+                "input_type": "select",
+                "label": "Category",
+                "value": null,
+                "options": ["AI", "Web Development", "Mobile Development", "Data Science", "Cyber Security"]
+            }
+        },
+        {
+            "def_client_questionnaire": {
+                "id": "id_24",
+                "input_type": "dropdown",
+                "label": "Product Areas",
+                "value": null,
+                "options": ["AI", "Web Development", "Mobile Development", "Data Science", "Cyber Security"]
+            }
+        }
+      ],
+      "def_project_preference_form": [
+        {
+          "id": "id_25",
+          "input_type": "select",
+          "label": "What is the first topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_26",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_27",
+          "input_type": "select",
+          "label": "What is the second topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_28",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        },
+        {
+          "id": "id_29",
+          "input_type": "select",
+          "label": "What is the third topic area you are interested in, if you don't get your project preferences?",
+          "value": null,
+          "options": ["AI/ML", "NLP", "Web Development", "Web Application", "Data Science", "VR/AR", "Cyber Security"]
+        },
+        {
+          "id": "id_30",
+          "input_type": "text",
+          "label": "Why are you interested in this topic area?",
+          "value": null,
+          "options": []
+        }
+      ],
+      "embedded_description": null,
+      "color": "#F5CDA7"
+    }
+  }

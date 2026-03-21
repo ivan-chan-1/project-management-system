@@ -1,0 +1,26 @@
+{
+  "files": [
+    "cypress.config.ts",
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "module": "ESNext", // <-- ESNext needed for ESM
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "resolveJsonModule": true
+  }
+}

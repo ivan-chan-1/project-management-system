@@ -1,0 +1,134 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "This is a simple swagger file to help our team keep track of our APIS!!",
+    "version": "1.0.0",
+    "title": "3900-h12a-DRAGONFRUIT"
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Student Requests",
+      "description": "All requests related to individual students"
+    },
+    {
+      "name": "Project Requests",
+      "description": "All requests related to projects"
+    },
+    {
+      "name": "Group Requests",
+      "description": "All requests related to groups"
+    },
+    {
+      "name": "Client Requests",
+      "description": "All requests related to clients"
+    }
+  ],
+  "paths": {
+    "/api/student/details/{studentId}": {
+      "get": {
+        "tags": [
+          "Student Requests"
+        ],
+        "parameters": [
+          {
+            "name": "studentId",
+            "in": "path",
+            "required": true,
+            "description": "ID of the student we want details about",
+            "type": "bson"
+          }
+        ],
+        "summary": "Returns student object for given studentId",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request - Incorrect parameter"
+          },
+          "404": {
+            "description": "Not Found - Student does not exist in the database"
+          }
+        }
+      }
+    },
+    "/api/project/summary/{projectId}": {
+      "get": {
+        "tags": [
+          "Project Requests"
+        ],
+        "summary": "Returns project background for given projectId",
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "description": "ID of the project we want background about",
+            "type": "bson"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request - Incorrect parameter"
+          },
+          "404": {
+            "description": "Not Found - Project does not exist in the database"
+          }
+        }
+      }
+    },
+    "/api/group/details/{groupId}": {
+      "get": {
+        "tags": [
+          "Group Requests"
+        ],
+        "summary": "Returns group object for given groupId",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "description": "ID of the group we want details about",
+            "type": "bson"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request - Incorrect parameter"
+          },
+          "404": {
+            "description": "Not Found - Project does not exist in the database"
+          }
+        }
+      }
+    },
+    "/api/client/all": {
+      "get": {
+        "tags": [
+          "Client Requests"
+        ],
+        "summary": "Returns list of all clients as JSON objects",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found - Error when fetching from database"
+          }
+        }
+      }
+    }
+  }
+}

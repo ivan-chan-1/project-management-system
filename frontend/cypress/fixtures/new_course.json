@@ -1,0 +1,11 @@
+{
+    "name": "Introduction to AI",
+    "code": "COMP4321",
+    "structure": "Trimester",
+    "termDates": {
+        "1": "01-02-2025 to 30-04-2025",
+        "2": "01-05-2025 to 31-07-2025",
+        "3": "01-08-2025 to 31-10-2025"
+    },
+    "description": "A comprehensive course introducing the concepts of Artificial Intelligence."
+}

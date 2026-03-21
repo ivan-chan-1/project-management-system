@@ -1,0 +1,48 @@
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+    volumes:
+      - ./backend:/app
+    environment:
+      - DB_URI=mongodb+srv://z5359506:q7oAb8N7AAgMsylN@dragonfruit.q06of.mongodb.net/app?retryWrites=true&w=majority&appName=dragonfruit
+    networks:
+      - db_network
+
+  frontend:
+    container_name: frontend
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - '5173:5173'
+    volumes:
+      - /app/node_modules
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:5000
+      - PORT=5173
+    depends_on:
+      - backend
+
+  frontend1:
+    container_name: frontend1
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3001'
+    volumes:
+      - /app/node_modules
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:5000
+      - PORT=3001
+    depends_on:
+      - backend
+
+networks:
+  db_network:
+    driver: bridge
