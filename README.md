@@ -38,5 +38,15 @@ When allocations of projects have been finalised, students, clients and course s
 
 ![Communication](https://github.com/user-attachments/assets/6a830895-9cda-49fe-bf1f-f420c1df4f9e)
 
+### Build
+To run with Docker, run the below command  
+```
+docker-compose build --no-cache
+```
+and then:
+```
+docker-compose up
+```
+
 ### Contributions
 This project is based on a university group project with contributes from Ashley Tun, Hellen Wang, Nikki Qin and Olivia Wu.
